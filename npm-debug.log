@@ -1,0 +1,84 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'OpenSSL' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'OpenSSL', null ]
+7 verbose cache add name=undefined spec="OpenSSL" args=["OpenSSL",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'OpenSSL',
+8 verbose parsed url   path: 'OpenSSL',
+8 verbose parsed url   href: 'OpenSSL' }
+9 silly lockFile ed7003a3-OpenSSL OpenSSL
+10 verbose lock OpenSSL C:\Users\kandarp.patel\AppData\Roaming\npm-cache\ed7003a3-OpenSSL.lock
+11 silly lockFile ed7003a3-OpenSSL OpenSSL
+12 silly lockFile ed7003a3-OpenSSL OpenSSL
+13 verbose addNamed [ 'OpenSSL', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile 12c02547-OpenSSL OpenSSL@
+16 verbose lock OpenSSL@ C:\Users\kandarp.patel\AppData\Roaming\npm-cache\12c02547-OpenSSL.lock
+17 silly addNameRange { name: 'OpenSSL', range: '*', hasData: false }
+18 verbose url raw OpenSSL
+19 verbose url resolving [ 'https://registry.npmjs.org/', './OpenSSL' ]
+20 verbose url resolved https://registry.npmjs.org/OpenSSL
+21 info trying registry request attempt 1 at 16:23:19
+22 http GET https://registry.npmjs.org/OpenSSL
+23 http 404 https://registry.npmjs.org/OpenSSL
+24 verbose headers { date: 'Mon, 04 Aug 2014 10:52:30 GMT',
+24 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 verbose headers   'content-type': 'application/json',
+24 verbose headers   'cache-control': 'max-age=0',
+24 verbose headers   'content-length': '52',
+24 verbose headers   'accept-ranges': 'bytes',
+24 verbose headers   via: '1.1 varnish',
+24 verbose headers   age: '0',
+24 verbose headers   'x-served-by': 'cache-syd1622-SYD',
+24 verbose headers   'x-cache': 'MISS',
+24 verbose headers   'x-cache-hits': '0',
+24 verbose headers   'x-timer': 'S1407149550.583636,VS0,VE188',
+24 verbose headers   'keep-alive': 'timeout=10, max=50',
+24 verbose headers   connection: 'Keep-Alive' }
+25 silly registry.get cb [ 404,
+25 silly registry.get   { date: 'Mon, 04 Aug 2014 10:52:30 GMT',
+25 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+25 silly registry.get     'content-type': 'application/json',
+25 silly registry.get     'cache-control': 'max-age=0',
+25 silly registry.get     'content-length': '52',
+25 silly registry.get     'accept-ranges': 'bytes',
+25 silly registry.get     via: '1.1 varnish',
+25 silly registry.get     age: '0',
+25 silly registry.get     'x-served-by': 'cache-syd1622-SYD',
+25 silly registry.get     'x-cache': 'MISS',
+25 silly registry.get     'x-cache-hits': '0',
+25 silly registry.get     'x-timer': 'S1407149550.583636,VS0,VE188',
+25 silly registry.get     'keep-alive': 'timeout=10, max=50',
+25 silly registry.get     connection: 'Keep-Alive' } ]
+26 silly lockFile 12c02547-OpenSSL OpenSSL@
+27 silly lockFile 12c02547-OpenSSL OpenSSL@
+28 error 404 404 Not Found: OpenSSL
+28 error 404
+28 error 404 'OpenSSL' is not in the npm registry.
+28 error 404 You should bug the author to publish it
+28 error 404 It was specified as a dependency of 'todo'
+28 error 404
+28 error 404 Note that you can also install from a
+28 error 404 tarball, folder, or http url, or git url.
+29 error System Windows_NT 6.1.7601
+30 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "OpenSSL"
+31 error cwd C:\todo
+32 error node -v v0.10.28
+33 error npm -v 1.4.9
+34 error code E404
+35 verbose exit [ 1, true ]
